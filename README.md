@@ -1,16 +1,24 @@
-## Hi there 👋
+# Brandon Kluzek
 
-<!--
-**brandonkluzek/brandonkluzek** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+I build software for testing AI systems and exploring difficult research questions.
 
-Here are some ideas to get you started:
+My work sits at the intersection of applied AI, model evaluation, research engineering, and data systems. I’m especially interested in systems that make model behavior measurable through deterministic graders, held-out tests, reproducible experiments, replayable artifacts, and honest failure analysis.
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+## What I work on
+
+- AI and LLM evaluation
+- Research software and experimental tooling
+- Data systems for reproducible workflows
+- Mathematical and computational research
+
+## How I work
+
+I separate prototypes, passing tests, empirical results, and research claims. The goal is software and evidence that another person can inspect, rerun, and challenge.
+
+## Tools
+
+Python · PyTorch · SQL · SQLite · TypeScript · Astro · LaTeX · Lean · Stockfish
+
+## Contact
+
+[Email](mailto:brandonkluzek@gmail.com)
