@@ -4,46 +4,40 @@ I build tools for studying how AI systems reason, learn, and fail.
 
 ## About me
 
-My background is in engineering physics and production data systems. I like problems that begin as a sketch on paper and end as something you can run, inspect, and challenge.
-
-Right now, I’m using chess, learning systems, and game theory as three different ways to explore AI reasoning. The common thread is simple: **what is the system actually doing, and how can we know?**
+I’m an engineer with a background in engineering physics and production data systems. I like problems that begin as sketches and end as experiments you can run, inspect, and challenge.
 
 ## Projects
 
-<table>
-<tr>
-<td width="33%" valign="top">
-
 ### ♟️ Chess Intelligence Lab
 
-A testbed for finding where AI reasoning breaks in chess—from reading the position to choosing and defending a move.
+**Where does AI reasoning break in chess?**
+
+A testbed for separating position reading, legality, tactics, move choice, and planning.
 
 <!-- Future links: repository | benchmark | results -->
 
-</td>
-<td width="33%" valign="top">
+---
 
 ### 🧠 Adaptive Study Lab
 
-A local-first study system exploring how AI feedback can help without turning learning into a black box.
+**Can AI feedback help without making learning a black box?**
+
+A local-first study system built around free-form recall, transparent evaluation, and inspectable learning history.
 
 <!-- Future links: repository | demo | notes -->
 
-</td>
-<td width="33%" valign="top">
+---
 
 ### ◇ Structural Game Theory
 
-A mathematical project about which parts of a strategic system survive when the same game is represented differently.
+**What stays the same when the same game is represented differently?**
+
+A mathematical and computational study of strategic structure, rankings, symmetries, and transformations.
 
 <!-- Future links: paper | verifier | repository -->
 
-</td>
-</tr>
-</table>
+---
 
 ## Say hello
 
-Always interested in thoughtful problems around model evaluation, reasoning, post-training, and AI for science.
-
-[Email me](mailto:brandonkluzek@gmail.com)
+Working on something around model evaluation, reasoning, post-training, or AI for science? [Email me](mailto:brandonkluzek@gmail.com).
