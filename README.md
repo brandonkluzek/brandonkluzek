@@ -20,9 +20,6 @@ $$\mathrm{pass}(x,m)=I_{\mathrm{parse}}(m)\,I_{\mathrm{protocol}}(m)\,I_{\mathrm
 
 Here, $x$ is the task, $m$ is the proposed move, and $A(x)$ is the exact accepted set. Every gate must succeed.
 
-| Input | Measurement | Evidence |
-| :--- | :--- | :--- |
-| Position + task | Parse → protocol → legality → exact check | Failure label + replay |
 
 <!-- Future links: repository | benchmark | results -->
 
@@ -40,9 +37,6 @@ $$r_t=G_\theta(a_t,\rho),\qquad z_{t+1}=F(z_t,r_t)$$
 
 The model grader $G_\theta$ compares answer $a_t$ with rubric $\rho$; the deterministic function $F$ owns the study-state transition.
 
-| Input | Judgment | Control |
-| :--- | :--- | :--- |
-| Prompt + learner response | Model vs. hidden rubric | Local scheduler + history |
 
 <!-- Future links: repository | demo | notes -->
 
@@ -60,9 +54,6 @@ $$u'_i(a_i,a_{-i})=\alpha_i u_i(a_i,a_{-i})+\beta_i,\qquad \alpha_i>0\Longrighta
 
 A positive affine payoff transformation preserves a player’s best-response set—one concrete example of a structural invariant.
 
-| Object | Transformation | Check |
-| :--- | :--- | :--- |
-| Finite game | Relabel / rescale / transform | Invariant or counterexample |
 
 <!-- Future links: paper | verifier | repository -->
 
