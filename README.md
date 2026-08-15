@@ -14,7 +14,7 @@ I’m an engineer with a background in engineering physics and production data s
 
 Chess offers exact rules and replayable positions, which makes it a useful laboratory for model behavior. The lab treats a move as the end of a chain: read the board, follow the protocol, stay legal, calculate, compare candidates, and choose. Each stage gets its own check so a plausible answer cannot hide the underlying failure. The goal is an inspectable benchmark with frozen tasks, failure labels, and replay records—then, once the measurement layer is trustworthy, experiments that test whether feedback or training improves performance on unseen positions.
 
-$$\operatorname{pass}(x,m)=I_{\mathrm{parse}}(m)\,I_{\mathrm{protocol}}(m)\,I_{\mathrm{legal}}(x,m)\,\mathbf{1}\!\left[m\in A(x)\right]$$
+$$\mathrm{pass}(x,m)=I_{\mathrm{parse}}(m)\,I_{\mathrm{protocol}}(m)\,I_{\mathrm{legal}}(x,m)\,\mathbf{1}\!\left[m\in A(x)\right]$$
 
 Here, $x$ is the task, $m$ is the proposed move, and $A(x)$ is the exact accepted set. Every gate must succeed.
 
@@ -50,7 +50,7 @@ The model grader $G_\theta$ compares answer $a_t$ with rubric $\rho$; the determ
 
 Structural Game Theory asks which features belong to a strategic system and which come from the way we write it down. Starting with exact finite games, it studies relabelings, payoff transformations, rankings, best responses, and symmetries using computation and formal arguments. Small cases make every transformation and counterexample inspectable. The aim is a reusable language for comparing games by structure rather than surface form—and a verifier that keeps mathematical claims, computational evidence, and future experiments on strategic agents clearly separated.
 
-$$u'_i(a_i,a_{-i})=\alpha_i u_i(a_i,a_{-i})+\beta_i,\qquad \alpha_i>0\Longrightarrow\operatorname{BR}'_i(a_{-i})=\operatorname{BR}_i(a_{-i})$$
+$$u'_i(a_i,a_{-i})=\alpha_i u_i(a_i,a_{-i})+\beta_i,\qquad \alpha_i>0\Longrightarrow\mathrm{BR}'_i(a_{-i})=\mathrm{BR}_i(a_{-i})$$
 
 A positive affine payoff transformation preserves a player’s best-response set—one concrete example of a structural invariant.
 
