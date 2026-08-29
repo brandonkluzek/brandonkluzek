@@ -1,8 +1,8 @@
 # Brandon Kluzek
 
-I build experiments, benchmarks, and research tools for understanding how AI systems reason—and for checking whether apparent improvements hold up.
+I’m interested in a simple question: **how do we train models to reason better—and tell when the improvement is real?**
 
-My background is in engineering physics and production data systems. I’m especially interested in model evaluation, post-training, learning systems, and AI for science.
+I work on reinforcement learning for reasoning and on verifiable benchmarks built from generated tasks whose structure and difficulty can be controlled. My longer-term goal is to build AI systems that can contribute meaningfully to mathematical research.
 
 [Email](mailto:brandonkluzek@gmail.com)
 
