@@ -1,8 +1,8 @@
 # Brandon Kluzek
 
-I’m interested in a simple question: **how do we train models to reason better—and tell when the improvement is real?**
+I’m Brandon Kluzek, and I work on reasoning RL, verifiable benchmarks, and AI for mathematics.
 
-I work on reinforcement learning for reasoning and on verifiable benchmarks built from generated tasks whose structure and difficulty can be controlled. My longer-term goal is to build AI systems that can contribute meaningfully to mathematical research.
+My work focuses on generated reasoning tasks with tunable difficulty, reward signals that can be checked, and evaluations that separate real capability gains from surface-level improvement. I’m especially interested in using these ideas to train stronger reasoning models and build AI systems that can contribute to mathematical research.
 
 [Email](mailto:brandonkluzek@gmail.com)
 
