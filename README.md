@@ -1,8 +1,8 @@
 # Brandon Kluzek
 
-I’m Brandon Kluzek, and I work on reasoning RL, verifiable benchmarks, and AI for mathematics.
+I’m Brandon Kluzek, and I work on reinforcement learning for reasoning models—aiming toward systems that can master games and eventually contribute to mathematical research.
 
-My work focuses on generated reasoning tasks with tunable difficulty, reward signals that can be checked, and evaluations that separate real capability gains from surface-level improvement. I’m especially interested in using these ideas to train stronger reasoning models and build AI systems that can contribute to mathematical research.
+My work uses chess and procedurally generated games as testbeds where the rules, strategic structure, and difficulty can be controlled. I’m interested in models that form plans, reason about opponents and consequences, transfer strategic knowledge across games, and reach superhuman play without depending entirely on conventional engine search.
 
 [Email](mailto:brandonkluzek@gmail.com)
 
